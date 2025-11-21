@@ -1,0 +1,35 @@
+@use 'helpers' as *;
+
+:root {
+  // -- Container --
+  --container-width: #{fluid(1376, 380)};
+  --container-padding-x: 10px;
+
+  // -- Fonts --
+  --font-family: "Montserrat", sans-serif;
+
+  // -- Colors --
+  --black: #0f0f0f;
+  --white: #f4f4f4;
+  --gray: #e4e4e4;
+  --beige: #ffa53f;
+  --beige-lite: rgba(255, 165, 63, 0.3);
+  --gray-lite: rgba(228, 228, 228, 0.5);
+
+  .isDark {
+    --black: #f4f4f4;
+    --white: #0f0f0f;
+    --gray: #e4e4e4;
+    --beige: #ffa53f;
+    --beige-lite: rgba(228, 228, 228, 0.7);
+    --gray-lite: rgba(228, 228, 228, 0.7);
+    .footer {
+      background: none;
+      fill: var(--black);
+    }
+  }
+  // -- Color-gradients --
+
+
+  // -- Border-radiuses --
+}
